@@ -1,41 +1,41 @@
 ## Node.js and backend
 
 - Internals and concepts
-  - Strong and weak sides of node.js
-  - Stateful and stateless servers
-  - Nonblocking I/O and blocking code
-  - Event loop phases
-  - Event loop microtasks and macrotasks
-  - Garbage collection
-  - Node.js LTS schedule
-  - I/O-bound, CPU-bound, memory-bound tasks
-  - Interactive applications (close to real-time)
+  - Strong and weak sides of node.js: 🎓 known
+  - Stateful and stateless servers: 🖐️ used
+  - Nonblocking I/O and blocking code: 🖐️ used
+  - Event loop phases: 🎓 known
+  - Event loop microtasks and macrotasks: 🖐️ used
+  - Garbage collection: 👂 heard
+  - Node.js LTS schedule: 🎓 known
+  - I/O-bound, CPU-bound, memory-bound tasks: 👂 heard
+  - Interactive applications (close to real-time): 👂 heard
 - Modularity, layers and dependencies
-  - CommonJS modules
-  - ECMAScript modules
-  - Module `node:module`
+  - CommonJS modules: 🎓 known
+  - ECMAScript modules: 🎓 known
+  - Module `node:module`: 👂 heard
   - Caching in CJS and ESM
   - Modules as singletons
-  - Contexts and scripts module `node:vm`
-  - Dependencies: `npm`, `node_modules`
-  - Files `package.json`, `package-lock.json`
+  - Contexts and scripts module `node:vm`: 👂 heard
+  - Dependencies: `npm`, `node_modules`: 🎓 known
+  - Files `package.json`, `package-lock.json`: 🎓 known
   - Module-based permissions model
   - Isolation with modularity
-  - Dependency injection
+  - Dependency injection: 🎓 known
   - DI containers
-  - Coupling and cohesion
-  - Framework agnostic approach
+  - Coupling and cohesion: 🎓 known
+  - Framework agnostic approach: 🎓 known
 - Environment
-  - Command line arguments
-  - Node.js CLI
+  - Command line arguments: 🖐️ used
+  - Node.js CLI: 🎓 known
   - Process-based permissions
-  - Graceful shutdown
-  - Clustering
-  - Watch filesystem changes with --watch
+  - Graceful shutdown: 👂 heard
+  - Clustering: 👂 heard
+  - Watch filesystem changes with --watch: 👂 heard
 - Internal API
-  - Streams API
-  - Web Streams API
-  - Crypto API
+  - Streams API: 🎓 known
+  - Web Streams API: 🎓 known
+  - Crypto API: 🎓 known
   - Password hashing with crypto.scrypt
   - Web Crypto API
   - File system API (sync and async)
